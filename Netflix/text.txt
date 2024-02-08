@@ -1,0 +1,40 @@
+BASIC
+A great way to enjoy all your favourite shows and movies on a budget.
+
+₹199/month
+
+STANDARD
+All the entertainment you love, in Full HD video quality.
+
+₹499/month
+
+PREMIUM
+A cinematic experience with the best picture and audio quality.
+
+₹649/month
+
+
+
+
+Enjoy on your TV
+Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.
+
+Download your shows to watch offline
+Save your favourites easily and always have something to watch.
+
+Watch everywhere
+Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.
+
+Create profiles for kids
+Send kids on adventures with their favourite characters in a space made just for them — free with your membership.
+
+
+
+
+display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
