@@ -1,0 +1,610 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+*h4{
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+   
+header{
+width: 95%;
+height:92vh;
+/* border:2px solid white; */
+display: flex;
+flex-wrap: wrap;
+
+
+}
+
+.first_box{
+
+    width: 30%;
+    height: 90%;
+    /* border: 2px solid white; */
+    background-color: rgb(21, 20, 20);
+   
+    
+}
+
+
+.first_box1{
+    border-bottom: 10px solid #010101;
+    width: 100%;
+    height: 16%;
+    border-radius: 7px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px; 
+}
+
+.home{
+    margin-top: 13px;
+    margin-left: 16px;
+}
+.search{
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+.bi{
+    width: 18.5px;
+    margin-top: 2px;
+}
+
+.first_box2{
+    width: 100%;
+    height:69vh;
+    /* border: 1px solid white; */
+    color: white;
+    margin-top: 10px;
+    overflow-y: scroll;
+    
+}
+
+.first_box2::-webkit-scrollbar {
+    width: 2px; /* Adjust the width of the scrollbar */
+}
+
+
+.yl{
+    padding-right: 119px;
+    padding-left: 13px;
+}
+
+.firstbox{
+    margin-bottom: 14px;
+    margin-left: 10px;
+
+}
+
+
+.secondbox span{
+    color: white;
+    margin-left:25px;
+    border-radius: 15px;
+    background: rgb(51, 47, 47);
+    padding:5px;
+    font-weight: 800;
+}
+
+.searchandrecent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-right: 30px;
+    font-size: 20px;
+    position: relative;
+    margin-bottom: 16px;
+    
+}
+
+.text{
+   position: relative;
+   left: 140px;
+   align-items: center;
+}
+
+
+
+
+.thirdbox {
+    width: 300px; /* Adjust the width as needed */
+    border-radius: 10px;
+    margin-left: 22px;
+    width: 65%;
+}
+.thirdbox:hover{
+    background: #2f2e2e;
+    width: 100%;
+}
+.playlist-item {
+    display: flex;
+    align-items: center;
+     /* Spotify dark background color */
+}
+
+.playlist-item img {
+    width: 45px; /* Adjust the width of the playlist cover */
+    height: 45px; /* Adjust the height of the playlist cover */
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.playlist-details {
+    padding: 10px;
+}
+
+.playlist-name {
+    display: block;
+    font-size: 15px;
+    color: #fff; /* White text color */
+    font-weight: bold;
+}
+
+.playlist-description {
+    font-size: 14px;
+    color: #b3b3b3; /* Light gray text color */
+}
+
+.creator-name {
+    font-size: 14px;
+    color: #b3b3b3; /* Light gray text color */
+}
+
+
+
+
+
+/* Second box strts form here */
+
+
+.second_box{
+background-color: #121212;
+    width: 50%;
+    height: 90%;
+    border-left: 10px solid #010101;
+    /* background: rgb(21, 20, 20); */
+    color: white;
+    border-right: 10px solid #010101;
+    
+
+}
+.explorebanner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 11px;
+    margin-left: 19px;
+    font-size: 25px;
+} 
+
+.explore{
+    color: black;
+    padding: 8px 11px;
+    background: white;
+    border-radius: 42px;
+    font-weight: 1000;
+}
+.iconbuttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 34px;
+
+}
+
+.iconbuttons span{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    padding: 2px 0px;
+    
+}
+
+.explorebanner span{
+    width: 29px;
+    height: 24px;
+   
+    border-radius:100px;
+    color: white;
+    background: #232222
+}
+
+.explore{
+    font-size: 14px;
+
+}
+
+.contentbanner{
+    overflow-y:scroll;
+    height:85%;
+    padding-bottom: 31px;
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;/* Adjust the width as needed */
+    height: 0px;
+}
+
+/* Change the color and roundness of the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background-color: #555; /* Change the color of the scrollbar thumb */
+    border-radius: 10px; /* Adjust the roundness of the scrollbar thumb */
+
+}
+
+
+.contentbanner h3{
+font-size: 32px;
+font-weight: 700;
+margin-top: 11px;
+margin-bottom: 11px;
+}
+
+.songboxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.box:hover{
+    background: #323131;
+}
+.songboxes div{
+    margin-bottom: 15px;
+    /* border: 2px solid black; */
+    width: 96%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 0px ;
+    border-radius: 6px;
+    background-color:rgb(42, 42, 42);
+}
+
+.songboxes div span {
+    /* position: relative;
+    top: -3.5px; */
+    color: white;
+    padding-left: 5px;
+    overflow: hidden;
+    white-space: nowrap; /* Prevent text from wrapping */
+    text-overflow: ellipsis; /* Display ellipsis for overflowing text */
+    display: inline-block; /* Ensure inline-block for text-overflow to work */
+    max-width: 100%; 
+}
+
+.songboxes div:hover{
+background: #414141;
+}
+
+.songboxes img{
+    width: 41px;
+    border-radius: 6px;
+    border-radius: 5px;
+}
+
+.yourshows {
+    display: flex;
+    justify-content: space-between;
+    padding: 19px 20px; /* Use padding shorthand for top/bottom and left/right */
+}
+
+.yourshows:hover{
+    text-decoration: underline;
+    transition: 4s ease-in;
+}
+
+.yourshows h4 {
+    margin: 0; /* Remove default margin */
+}
+
+.contentbox{
+display: flex;
+justify-content: center;
+}
+
+.contentbox div{
+    
+    width: 18%;
+    /* border: 2px solid black; */
+    margin: 0px 10px;
+    height: 165px;
+    background: #232222be;
+    padding: 11px 16px;
+    border-radius: 7px;
+    overflow: hidden;
+text-overflow: ellipsis;
+}
+
+.contentbox div img{
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 9px;
+    border-radius: 5px;
+    
+}
+
+.contenttxt{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.contentbox .contenttxt span {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+/* third box strats from here */
+
+
+.third_box{
+width: 18%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    background: #121212;
+    color: white;
+    overflow-y: scroll;
+
+}
+
+.nameofplaylist{
+    display: flex;
+    height: 20px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 8px 11px;
+    color: white;
+}
+.nameofplaylist h4 .bi{
+    font-size: 24px;
+}
+
+.nameofplaylist h4{
+    margin: 0;
+}
+
+.card1{
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+    align-items: center;
+    height: 549px;
+    height: 304px;
+
+
+}
+.card1 img{
+justify-content: center;
+display: flex;
+width: 232px;
+border-radius: 5px;
+}
+
+.i{
+    font-size: 20px;
+    padding-top: 10px;
+    color: white;
+}
+
+.card1 marquee{
+    width: 50%;
+    margin-left: -98px;
+
+}
+.card1icon { 
+
+    display: flex;
+    margin-left: 174px;
+    margin-top: -20px;
+}
+.card1icon .bi{
+    padding: 0px 2px;
+}
+
+.card2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.cardbox{
+width: 232px;
+border: 2px solid rgba(47, 45, 45, 0);
+height: 55vh;
+border-radius: 5px;
+}
+.card2 img{
+    position: relative;
+    width:232px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+
+.card2 p{
+    color: white;
+    padding: 10px 15px;
+}
+
+.databoth{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    font-weight: lighter;
+
+}
+
+.datacard{
+    display: flex;
+}
+
+.followbtn{
+    width: 78px;
+    height: 23px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: transparent;
+    border-radius: 16px;
+    font-size: 14px;
+    margin-top: -2px;
+    margin-left: 14px
+}
+
+.artistinfo{
+    max-width: 279px;
+    height: 60px;
+    margin-left: 5px;
+    margin-top: 5px;
+    text-overflow: ellipsis;
+    overflow-y: scroll;
+    width: 99%;
+    word-break: break-all;
+}
+
+.ellipsis-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 110%;
+    height: 12vh;
+    padding-bottom: 15px;
+    color: rgb(124, 121, 121);
+}
+
+.queue{
+    width: 232px;
+    height: 5vh;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 11px;
+    margin-top: 37px 
+}
+
+.topban{
+font-size: 15px;
+width: 100%;
+display: flex;
+/* align-items: center; */
+justify-content: space-around;
+
+}
+
+.masterplay{
+    width: 100%;
+    height: 10%;  
+    background: #000000;
+    box-shadow: 0px 3px 8px #090f1f ;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.masterrange{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    width: 66vw;
+    position: relative;
+    left: 21%;
+    padding-top: 12px;
+    cursor: pointer;
+    /* padding: 17px  */
+}
+
+.masterrangeicons span{
+    color: white;
+    font-size: 28px;
+    padding: 0px 11px;
+    font-weight: 100;
+}
+input[type="range"] {
+    width:700px;
+    cursor: pointer;
+    height: 4px;
+    background: gray;
+  }
+input[type="range"]:hover {
+   background: green;
+  }
+
+
+  .songimage img{
+width: 51px;
+margin: 10px 7px 
+  }
+
+.songessentials{
+
+ margin: -57px 76px;
+ color: white;
+ display: flex;
+ flex-direction: column;
+
+}
+
+.songessentials:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.mastericons{
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 145%;
+    justify-content: end;
+    margin: -30px -57px;
+
+}
+
+.mastericons span{
+    padding-right: 10px;
+
+}
+
+#vol{
+    width: 100px;
+    height: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.voll{
+    padding-right: 1px;
+}
+
+
